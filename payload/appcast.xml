@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Instit</title>
+        <item>
+            <title>2.0.0</title>
+            <pubDate>Wed, 12 Aug 2026 16:10:03 +0200</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>2.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Instit 2.0.0
+
+- Remplacement du backend Supabase par Firebase Authentication, Cloud Firestore et Cloud Functions.
+- Synchronisation local-first conservée, avec travail hors ligne et reprise sécurisée.
+- Hébergement du site et de l’application Web sur Firebase Hosting.
+- Journal de classe quotidien simplifié et leçons organisées en espaces de cours.
+- Facturation applicative désactivée pour cette version.
+
+Les anciennes données Supabase ne sont pas importées : la cible Firebase démarre vide.
+]]></description>
+            <enclosure url="https://github.com/ALverlaine/instit-releases/releases/download/v2.0.0/Instit-2.0.0-macOS.zip" length="33699800" type="application/octet-stream" sparkle:edSignature="K6Tjq/e2EP02r2u46wSfv7N2cSpYhFrmPV3tyqR75cLZUEGzoTf2b1YNBNRfm77oJKDux7vqnjncL4DL342VBw=="/>
+        </item>
+    </channel>
+</rss>
